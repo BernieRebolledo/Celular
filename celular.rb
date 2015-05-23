@@ -32,7 +32,7 @@ class Celular
 				n.to_s
 				case n
 					when "3133575494"
-					puts "Este numero ya existe asignado a otro celular"
+					puts "Este numero de celular ya esta asignado a otro celular"
 					initialize
 					else
 					puts "Su numero de celular es #{n} es de color #{c} y marca #{m}"
