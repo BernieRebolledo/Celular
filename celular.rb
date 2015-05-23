@@ -10,6 +10,7 @@ class Celular
 					puts "Su celular es marca Iphone"
 					else
 					puts "Cule marca bomba, debe ser Iphone o Samsung"
+					initialize
 				end
 				puts "Ingrese el color del celular, entre azul, gris o negro:"
 				c = gets.chomp
@@ -23,6 +24,7 @@ class Celular
 					puts "Su celular es color #{c} y marca #{m}"
 					else
 					puts "Su celular es marca #{m} pero no eligio un color de los mencionados"
+					initialize
 				end	
 
 				puts "Ingrese el numero de celular"
@@ -31,6 +33,7 @@ class Celular
 				case n
 					when "3133575494"
 					puts "Este numero ya existe asignado a otro celular"
+					initialize
 					else
 					puts "Su numero de celular es #{n} es de color #{c} y marca #{m}"
 				end
